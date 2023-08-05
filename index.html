@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CMS</title>
+  <link rel="icon" href="cms.png">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>Content Management System</h1>
+  </div>
+  <div class="card">
+    <div class="input-section">
+      <label class="label-section" for="title">Title:</label>
+      <input class="div-section" type="text" id="title" placeholder="Enter title">
+    </div>
+
+    <div class="input-section">
+      <label class="label-section" for="image">Image:</label>
+      <input type="file" id="image" accept="image/*">
+    </div>
+
+    <div class="input-section">
+      <label class="label-section" for="video">Video:</label>
+      <input type="file" id="video" accept="video/*">
+    </div>
+
+    <div class="input-section">
+      <label class="label-section" for="content">Content:</label>
+      <textarea class="div-section" cols="40" rows="5" id="content" placeholder="Write your content...."></textarea>
+    </div>
+
+    <div class="button-section">
+      <button onclick="submitForm()">Submit</button>
+    </div>
+
+    <div class="data-container" id="dataSection">
+    </div>
+  </div>
+</body>
+
+</html>
